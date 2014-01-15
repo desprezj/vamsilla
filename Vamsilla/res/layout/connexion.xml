@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : connexion.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 17/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Présentation de l'activité connexion
+
+	VAMSI v6 2012									 
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bodyBg">
+    
+    <include 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        layout="@layout/header" 
+        android:layout_gravity="top">
+    </include>
+    
+
+	    <TextView 
+	      android:layout_width="match_parent" 
+	      android:layout_height="wrap_content" 
+	      android:layout_gravity="center_vertical"
+	      android:textColor="@color/bodyText"
+	      android:text="@string/ssid" 
+	    />
+	    <EditText
+			android:id="@+id/SSID"
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+	      	android:layout_gravity="center_vertical"
+	     	android:textColor="@color/bodyText"
+			android:inputType="text"
+		    />
+	    <TextView 
+	      android:layout_width="match_parent" 
+	      android:layout_height="wrap_content" 
+      	  android:layout_gravity="center_vertical"
+	      android:textColor="@color/bodyText"
+	      android:text="@string/passWord" 
+	    />
+	    <EditText
+			android:id="@+id/pass"
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+	      	android:layout_gravity="center_vertical"
+	      	android:textColor="@color/bodyText"
+			android:inputType="textPassword"
+	    />
+	    
+	    <Button 
+	        android:id="@+id/bValConnect"
+		    android:layout_width="150dip"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textColor="@color/buttonText"
+		    android:background="@drawable/login_selector"
+		    android:text="@string/validConnectButton"
+		    android:layout_margin="5dip"
+		    android:padding="5dip"
+		    />
+	    
+	    <Button 
+	        android:id="@+id/copyButton"
+		    android:layout_width="150dip"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textColor="@color/buttonText"
+		    android:background="@drawable/login_selector"
+		    android:text="@string/copyButton"
+		    android:onClick="copy"
+		    android:layout_margin="5dip"
+		    />
+	    
+	    
+	    <LinearLayout android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	        <CheckBox android:id="@+id/clearKeyCheck"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"    	
+		    	android:onClick="showKey"
+		    	android:layout_gravity="left"/>
+	        
+	        <TextView android:layout_width="match_parent" 
+			      android:layout_height="wrap_content" 
+		      	  android:layout_gravity="center_vertical"
+			      android:textColor="@color/bodyText"
+			      android:text="@string/showKey" />
+	    </LinearLayout>
+    
+  	<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" 
+     >
+	    
+	      <include 
+	         android:layout_width="match_parent" 
+	         android:layout_height="wrap_content" 
+	         layout="@layout/footer" 
+	         android:layout_gravity="bottom">
+	      </include>
+	      
+	</LinearLayout>
+   
+    </LinearLayout>

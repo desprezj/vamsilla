@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : download_row.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 18/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Présentation de l'en-tête de l'application
+
+	VAMSI v6 2012									 
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  	>
+  	
+  
+		  	<CheckBox android:id="@+id/check"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginLeft="10dp"
+		    	android:checked="false"    	
+		    	android:clickable="false"
+		    	android:layout_gravity="left"
+		    	android:textColor="@color/whiteTitleText"/>
+ 	
+			<TextView android:id="@+id/name"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:textColor="@color/bodyText"
+		 		android:layout_gravity="left"/>
+		  	
+		  	<TextView android:id="@+id/place"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:layout_gravity="left"
+		 		android:visibility="gone"/>
+		  	
+		  	<TextView android:id="@+id/index"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:layout_gravity="left"
+		 		android:visibility="gone"/>
+		  	
+		  	<TextView android:id="@+id/taille"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:textColor="@color/bodyText"
+		 		android:gravity="right"
+		 		android:layout_marginRight="5dp"
+		 		android:layout_gravity="right"/>
+		  	
+		  	<TextView android:id="@+id/unit"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:textColor="@color/bodyText"
+		 		android:gravity="right"
+		 		android:text="@string/sizeUnit"
+		 		android:layout_gravity="right"/>
+			  		
+		
+    
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : running_downloads_row.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Cr�ation : 18/06/2012
+	Date de Modification : 23/06/2012
+	Derni�re r�vision : Thomas JAN MAHAMAD
+	Version : 1.0
+  
+	Présentation d'une ligne de la liste de téléchargements en cours
+
+	VAMSI v6 2012									 
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bodyBg"
+  	>
+  	
+	<TableLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:stretchColumns="1">
+	        <TableRow>
+			  	<TextView 
+			  	    android:id="@+id/name"
+			  	    android:layout_width="wrap_content"
+			  	    android:layout_height="wrap_content"
+			  	    android:layout_gravity="left"
+			  	    android:paddingLeft="10dp"
+			  	    android:textColor="@color/bodyText"
+			  	    />
+			  	
+			  	<TextView 
+			  	    android:id="@+id/fileProgress"
+			  	    android:layout_width="wrap_content"
+			  	    android:layout_height="wrap_content"
+			  	    android:layout_gravity="right"
+			  	    android:paddingRight="10dp"
+			  	    android:textColor="@color/bodyText"
+			  	    />
+			</TableRow>
+	</TableLayout>
+		  	
+  	
+	<ProgressBar 
+	    android:id="@+id/progress"
+	    style="@android:style/Widget.ProgressBar.Horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:max="100"
+ 		android:progressDrawable="@drawable/progress_bar"
+ 		android:padding="10dp"
+ 		/>
+  			
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : download_row.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Cr�ation : 18/06/2012
+	Date de Modification : 23/06/2012
+	Derni�re r�vision : Thomas JAN MAHAMAD
+	Version : 1.0
+  
+	Pr�sentation de l'en-t�te de l'application
+
+	VAMSI v6 2012									 
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bodyBg"
+  	>
+  	<ListView android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <TextView android:id="@+id/android:empty"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/noDownloads"
+		/>
+    
+<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/runningDownloadsPB"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    >
+	    
+		    	<TextView
+		    android:id="@+id/gblProgress"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:paddingLeft="10dp"
+		    android:textColor="@color/bodyText"
+		    android:text="@string/gProgress"
+	    /> 
+    
+	    <ProgressBar 
+  		    android:id="@+id/globalProgress"
+  		    style="@android:style/Widget.ProgressBar.Horizontal"
+  		    android:layout_width="match_parent"
+  		    android:layout_height="wrap_content"
+  		    android:layout_gravity="center_horizontal"
+  		    android:max="100"
+	   		android:progressDrawable="@drawable/progress_bar"
+	   		android:padding="10dp"
+	   		/>
+	    
+	    <TextView
+		    android:id="@+id/progressBarNbrFile"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:paddingRight="10dp"
+		    android:textColor="@color/bodyText"
+		    android:text="@string/pbNbrFile"
+	    /> 
+
+	</LinearLayout>	
+   	    
+	    <Button 
+		    android:id="@+id/listButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textColor="@color/buttonText"
+		    android:background="@drawable/login_selector"
+		    android:text="@string/listButton"
+	    />	
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bodyBg"
+    >
+	<LinearLayout 
+	    android:id="@+id/menu_layout"
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:background="@color/bodyBg">
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/pathEdit"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/pathEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ipServerEdit"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/ipServerEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/loginFtpEdit"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/loginFtpEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/passwordFtpEdit"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/passwordFtpEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPassword"
+	        />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <Button 
+	            android:id="@+id/validButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight=".5"
+	            android:background="@drawable/login_bg"
+			    android:textColor="@color/buttonText"
+			    android:text="@string/validButton"
+	            android:onClick="valid"
+	            />
+	        
+	        <Button 
+	            android:id="@+id/cancelButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight=".5"
+			    android:textColor="@color/buttonText"
+	            android:background="@drawable/login_selector"
+			    android:text="@string/cancelButton"
+	            android:onClick="cancel"
+	            />
+	        
+	    </LinearLayout>
+	    
+	</LinearLayout>
+</ScrollView>

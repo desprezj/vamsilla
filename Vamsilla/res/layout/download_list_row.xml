@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : download_row.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Cr�ation : 18/06/2012
+	Date de Modification : 23/06/2012
+	Derni�re r�vision : Thomas JAN MAHAMAD
+	Version : 1.0
+  
+	Pr�sentation de l'en-t�te de l'application
+
+	VAMSI v6 2012									 
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bodyBg"
+  	>
+  	<TextView 
+  	    android:id="@+id/name"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:textColor="@color/bodyText"
+  	    />
+  		<ProgressBar 
+  		    android:id="@+id/progress"
+  		    style="@android:style/Widget.ProgressBar.Horizontal"
+  		    android:layout_width="match_parent"
+  		    android:layout_height="wrap_content"
+  		    android:progress="50"
+  		    android:max="100"/>
+  		
+</LinearLayout>

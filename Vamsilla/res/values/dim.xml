@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : dim.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 17/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Fichier contenant les dimensions de l'application
+
+	VAMSI v6 2012									 
+-->
+
+<resources>
+	<dimen name="textVAMSISize">32px</dimen>
+</resources>

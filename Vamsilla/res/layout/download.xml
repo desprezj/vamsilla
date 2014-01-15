@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : download.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 18/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Présentation de l'en-tête de l'application
+
+	VAMSI v6 2012									 
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bodyBg" >
+    
+    <include 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        layout="@layout/header" 
+        android:layout_gravity="top">
+    </include>
+    
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        >
+        
+       	<Button 
+		    android:id="@+id/checkAllButton"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+       	    android:layout_weight="1"
+		    android:textColor="@color/buttonText"
+		    android:text="@string/checkAllButton"
+		    android:background="@drawable/login_selector"
+		    android:layout_margin="5dip"
+		    android:onClick="checkAll"
+		    android:visibility="gone"
+	    />
+
+       	<Button
+       	    android:id="@+id/downloadButton"
+       	    android:layout_width="match_parent"
+       	    android:layout_height="wrap_content"
+       	    android:layout_weight="1"
+       	    android:onClick="download"
+       	    android:text="@string/downloadButton"
+		    android:background="@drawable/login_selector"
+		    android:layout_margin="5dip"
+       	    android:textColor="@color/buttonText" />
+        
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+   	<TextView android:id="@+id/android:empty"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/noVideo"
+		/>
+   	
+   	
+  	<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" 
+     >
+	    
+	     <include 
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content" 
+	        layout="@layout/footer" 
+	        android:layout_gravity="bottom">
+	     </include>
+	      
+	</LinearLayout>
+   	
+</LinearLayout>

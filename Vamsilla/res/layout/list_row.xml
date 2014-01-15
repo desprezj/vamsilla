@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : list_row.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 18/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Présentation de l'en-tête de l'application
+
+	VAMSI v6 2012									 
+-->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fileName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/bodyText"
+    android:padding="10dip"
+/>

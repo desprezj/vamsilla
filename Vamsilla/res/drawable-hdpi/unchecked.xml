@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : custom_checkbox.xml
+	Auteurs : Augustin BESSETTE
+	Date de Création : 28/06/2012
+	Version : 1.0
+
+	VAMSI v6 2012									 
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_checked="true" android:drawable="@drawable/checked" />
+	<item android:state_pressed="true" android:drawable="@drawable/checked" />
+	<item android:drawable="@drawable/unchecked" />
+</selector>

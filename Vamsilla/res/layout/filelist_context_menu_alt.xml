@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/openFile"
+        android:title="@string/untarFile"
+        />
+    <item
+        android:id="@+id/deleteFile"
+        android:title="@string/deleteFile"
+        />
+    
+</menu>

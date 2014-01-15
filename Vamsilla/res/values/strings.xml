@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : strings.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 15/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Fichier contenant les chaînes de texte
+
+	VAMSI v6 2012									 
+-->
+
+<resources>
+
+    <string name="hello">Vamsilla main</string>
+    <string name="app_name">Vamsilla</string>
+    <string name="header">VAMSILLA</string>
+    <string name="footer">VAMSILLA for Android v0.1  2012</string>
+    <string name="connectButton">Connexion à un réseau</string>
+    <string name="validConnectButton">Connexion</string>
+    <string name="listButton">Accéder aux fichiers</string>
+    <string name="ssid">SSID : </string>
+    <string name="passWord">Mot de Passe : </string>
+    <string name="noVideo">Aucune vidéo disponible</string>
+    <string name="totalSpace">Espace total : </string>
+    <string name="busySpace">Espace utilisé  : </string>
+    <string name="vamsillaSpace">Espace utilisé par vamsilla : </string>
+    <string name="nFiles">Nombre de fichiers : </string>
+    <string name="downloadsButton">Téléchargements en cours</string>
+    <string name="downloadButton">Télécharger</string>
+    <string name="refreshButton">Mettre à jour</string>
+    <string name="checkAllButton">Tout cocher</string>
+    <string name="uncheckAllButton">Tout décocher</string>
+    <string name="showKey">Afficher la clé</string>
+    <string name="noDownloads">Aucun téléchargement en cours</string>
+    <string name="noKey">Pas de mot de passee</string>
+    <string name="gProgress">Progression total :</string>
+    <string name="pbNbrFile">Fichier(s) téléchargé(s) : </string>
+    <string name="desc_icon_not_progress">download progress</string>
+    <string name="deleteButton">Supprimer</string>
+    <string name="testButton">Test</string>
+    <string name="logButton">Logs</string>
+    <string name="noLog">Aucune activité</string>
+    <string name="sizeUnit"> Mo</string>
+    <string name="optionMenu">Options</string>
+    <string name="phony">phony</string>
+    <string name="pathEdit">Dossier vamsilla :</string>
+    <string name="ipServerEdit">Ip du serveur ftp :</string>
+    <string name="loginFtpEdit">Login du ftp :</string>
+    <string name="passwordFtpEdit">Mot de passe du ftp :</string>
+    <string name="cancelButton">Annuler</string>
+    <string name="validButton">Valider</string>
+    <string name="dbDump">Sauvegarde BDD</string>
+    <string name="copyButton">SSID -> Clé</string>
+    <string name="openFile">Ouvrir/Décompresser le fichier</string>
+    <string name="deleteFile">Supprimer le fichier</string>
+    <string name="untarFile">Décompresser le fichier</string>
+    
+    <string-array name="db_types">
+        <item>Tous</item>
+        <item>Connexion</item>
+        <item>Suppression</item>
+        <item>Telechargement</item>
+        <item>Integrite</item>
+        <item>Decompression</item>
+    </string-array>
+
+</resources>

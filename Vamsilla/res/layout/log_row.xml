@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : log_row.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 18/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Présentation de l'en-tête de l'application
+
+	VAMSI v6 2012									 
+-->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<LinearLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		    <TextView
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:id="@+id/date"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+       	   		android:layout_weight="1"
+			    android:textColor="@color/bodyText"
+			    android:padding="10dip"
+			/>
+		    <TextView
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:id="@+id/type"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+       	    	android:layout_weight="1"
+			    android:textColor="@color/bodyText"
+			    android:padding="10dip"
+			/>
+	</LinearLayout>
+	<!-- <LinearLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		    <TextView
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:id="@+id/user"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:textColor="@color/bodyText"
+			    android:padding="10dip"
+			/>
+		    <TextView
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:id="@+id/size"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:textColor="@color/bodyText"
+			    android:padding="10dip"
+			/>
+	</LinearLayout> -->
+    <TextView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/body"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:textColor="@color/bodyText"
+	    android:padding="10dip"
+	/>
+     	
+    <TextView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/rowId"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:visibility="gone"
+        />
+    
+</LinearLayout>

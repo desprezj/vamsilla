@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : color.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 17/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Fichier contenant les couleurs du projet
+
+	VAMSI v6 2012									 
+-->
+
+<resources>
+    <color name="titleText">#FFF</color>
+    <color name="bodyText">#FFFFFF</color>
+    <color name="whiteTitleText">#FFF</color>
+    <color name="whiteSubTitleText ">#FFF</color>
+    <color name="vamsiText">#FFF</color>
+    <color name="buttonText">#8AEBF7</color>
+    <color name="commentText">#5C6FA3</color>
+    <color name="color1">#2B6E9D</color>
+    <color name="bodyBg">#0F1E46</color>
+    <color name="progressBarBg">#0F1E46</color>
+    <color name="progressBar1">#00CA34</color>
+    <color name="progressBar2">#44BA24</color>
+    <color name="progressBar3">#00AA14</color>
+    <color name="headerBg">#0F1E46</color>
+    <color name="textBody2">#2B6E9D</color>
+    <color name="cbChecked">#ACB3C4</color>
+    <color name="blackCheckbox">#000000</color>
+    <color name="buttonBG">#8AEBF7</color>
+    <color name="successState">#00AA14</color>
+    <color name="failState">#CB3200</color>
+    <color name="errorState">#8AEBF7</color>
+    <color name="unknowState">#ACB3C4</color>
+</resources>

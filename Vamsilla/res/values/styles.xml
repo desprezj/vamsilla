@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="styleVAMSI" parent="@android:style/Theme">
+        <item name="android:textColor">@color/vamsiText</item>
+    </style>
+    
+    <style name="header" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/vamsiText</item>
+        <item name="android:background">@color/headerBg</item>
+        <item name="android:textSize">50px</item>
+    </style>
+    
+    <style name="footer" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/vamsiText</item>
+        <item name="android:background">@color/headerBg</item>
+        <item name="android:textSize">20px</item>
+    </style>
+    
+    <style name="ProgressBarBGDEOUF" parent="@android:style/Widget.ProgressBar.Horizontal">
+        
+    </style>
+
+</resources>

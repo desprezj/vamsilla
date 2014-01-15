@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : home.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 17/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Présentation de la page d'accueil de l'application
+
+	VAMSI v6 2012									 
+-->
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bodyBg" >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:background="@color/bodyBg" >
+	    
+	    
+	    <include 
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content" 
+	        layout="@layout/header" 
+	        android:layout_gravity="top">
+	    </include>
+	
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    >
+		    
+		    <Button 
+			    android:id="@+id/connectButton"
+			    android:layout_width="300dip"
+			    android:layout_height="100dip"
+			    android:layout_gravity="center_horizontal"
+			    android:onClick="connectionButton"
+			    android:textColor="@color/buttonText"
+			    android:background="@drawable/login_selector"
+			    android:text="@string/connectButton"
+			    android:layout_weight=".5"
+			    android:layout_margin="5dip"
+			    />	
+			    
+		    <Button 
+			    android:id="@+id/downloadsButton"
+			    android:layout_width="300dip"
+			    android:layout_height="100dip"
+			    android:layout_gravity="center_horizontal"
+			    android:onClick="downloadsButton"
+			    android:textColor="@color/buttonText"
+			    android:background="@drawable/login_selector"
+			    android:text="@string/downloadsButton"
+			    android:layout_weight=".5"
+			    android:layout_margin="5dip"
+		    />
+	    </LinearLayout>
+	
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    >
+			<Button 
+			    android:id="@+id/listButton"
+			    android:layout_width="300dip"
+			    android:layout_height="100dip"
+			    android:layout_gravity="center_horizontal"
+			    android:onClick="listFilesButton"
+			    android:textColor="@color/buttonText"
+			    android:background="@drawable/login_selector"
+			    android:text="@string/listButton"
+			    android:layout_weight=".5"
+			    android:layout_margin="5dip"
+			    />	
+			    
+			<Button 
+			    android:id="@+id/logButton"
+			    android:layout_width="300dip"
+			    android:layout_height="100dip"
+			    android:layout_gravity="center_horizontal"
+			    android:onClick="logButton"
+			    android:textColor="@color/buttonText"
+			    android:background="@drawable/login_selector"
+			    android:text="@string/logButton"
+			    android:layout_weight=".5"
+			    android:layout_margin="5dip"
+			    />		
+		</LinearLayout>
+		
+		<TextView
+		    android:id="@+id/nbFichiers"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textColor="@color/bodyText"
+		    android:text="@string/nFiles"
+		    />
+		
+		<TextView 
+		    android:id="@+id/tvEspaceUt"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textColor="@color/buttonText"
+		    android:text="@string/busySpace"
+		    />
+		
+		<TextView 
+		    android:id="@+id/tvEspaceTotal"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textColor="#9D9E9D"
+		    android:text="@string/totalSpace"
+		    />
+		
+		<TextView 
+		    android:id="@+id/tvVamsillaSpace"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textColor="@color/progressBar1"
+		    android:text="@string/vamsillaSpace"
+		    />
+	
+		<ProgressBar
+		    android:id="@+id/pbEspaceSD"
+		    style="@android:style/Widget.ProgressBar.Horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:max="15879"
+		    android:progress="5000"
+		    android:secondaryProgress="10000"
+		    android:progressDrawable="@drawable/progress_bar"/>
+		
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" 
+		    >
+		    
+			<include 
+			   android:layout_width="match_parent" 
+			   android:layout_height="wrap_content" 
+			   layout="@layout/footer" 
+			   android:layout_gravity="bottom">
+				</include>
+	
+		</LinearLayout>
+	    
+	</LinearLayout>
+</ScrollView>

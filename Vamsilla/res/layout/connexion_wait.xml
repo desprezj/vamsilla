@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Fichier : connexion_wait.xml
+	Auteurs : Thomas JAN MAHAMAD
+	Date de Création : 18/06/2012
+	Date de Modification : 23/06/2012
+	Dernière révision : Thomas JAN MAHAMAD
+	Version : 1.0
+
+	Présentation de la page d'attente de connexion
+
+	VAMSI v6 2012									 
+-->
+
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content">
+  
+</LinearLayout>
